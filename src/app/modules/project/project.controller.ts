@@ -9,7 +9,7 @@ const addProject = catchAsync(async (req, res) => {
   sendResponse(res, {
     success: true,
     statusCode: httpStatus.CREATED,
-    message: 'Course created successfully',
+    message: 'Project added successfully',
     data: result,
   })
 })
